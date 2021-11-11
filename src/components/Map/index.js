@@ -27,7 +27,7 @@ const Map = ({ tracker }) => {
       lat: tracker?.location.lat,
       lng: tracker?.location.lng,
     },
-    zoom: 16,
+    zoom: 17,
   };
 
   return (
