@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react/cjs/react.development";
+import { useState, useEffect } from "react";
 import "./App.css";
 import Header from "./components/Header";
 import Location from "./components/Location";
@@ -9,7 +9,8 @@ function App() {
   useEffect(() => {
     fetch(
       `https://geo.ipify.org/api/v1?apiKey=at_Rt5mnqOpd18Iw6sjWKV7LZfqBAiwI`
-    )
+    );
+    useEffect
       .then((res) => res.json())
       .then((data) => {
         console.log(data);

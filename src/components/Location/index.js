@@ -1,8 +1,6 @@
 import "../Location/location.styles.css";
 
 const Location = ({ tracker }) => {
-  console.log(tracker?.location.lat, "1111111111111111111111111111111111111");
-  console.log(tracker?.location.lng);
   return (
     <div className="location">
       <div>
