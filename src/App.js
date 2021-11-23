@@ -9,8 +9,7 @@ function App() {
   useEffect(() => {
     fetch(
       `https://geo.ipify.org/api/v1?apiKey=at_Rt5mnqOpd18Iw6sjWKV7LZfqBAiwI`
-    );
-    useEffect
+    )
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
